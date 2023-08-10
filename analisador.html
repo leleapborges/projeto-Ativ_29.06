@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analisador.css">
+    <title>Analisador</title>
+</head>
+<body>
+    <h1>Analisador de numeros</h1>
+    <div>
+    <div class="selecionar numeros">
+        <label for="num">Digite números de 1 a 100:</label>
+        <input type="number" id="numeros">
+        <input type="button" value="selecionar" onclick="selecionar()">
+        
+    </div>
+        <select id="itens"></select>
+    </div>
+        <input type="button" value="finalizar" onclick="finalizar()">
+    <div id="resposta">
+        <script src="analisador.js"></script>
+    </div>
+</body>
+</html>

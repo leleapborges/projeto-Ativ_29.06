@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(22, 125, 125);
+    font-family: Arial;
+    margin-top: 10%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin: 2%;
+}
+
+.selecionar_numero{
+    margin: 1%;
+}
+
+input[type='number']{
+    font-size: 23px;
+    width: 5%;
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+}
+
+input[type='button']{
+    font-size: 30px;
+    padding: 1%;
+    font-family: Arial;
+    font-weight: bold;
+}
+label{
+    font-size: 25px;
+}
+
+select{
+    font-weight: bold;
+    font-size: 24px;
+    height: 100px;
+    width: 400px;
+    padding: 2%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    text-align: center;
+}
+#respostas{
+    margin-top: 3%;
+    font-size: 25px;
+}
